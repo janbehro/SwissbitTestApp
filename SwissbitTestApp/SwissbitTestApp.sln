@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwissbitTestApp", "SwissbitTestApp\SwissbitTestApp.csproj", "{D71BB964-2C4B-4994-A961-626A03BC12A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datapac.Swissbit", "Datapac.Swissbit\Datapac.Swissbit.csproj", "{F9311C3C-CE78-4D2F-8D56-F11730DCDA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datapac.Sunmi.Printer", "Datapac.Sunmi.Printer\Datapac.Sunmi.Printer.csproj", "{F9EB7D0A-BF7F-4A5A-9E76-DB4B17C852DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D71BB964-2C4B-4994-A961-626A03BC12A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71BB964-2C4B-4994-A961-626A03BC12A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71BB964-2C4B-4994-A961-626A03BC12A1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D71BB964-2C4B-4994-A961-626A03BC12A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71BB964-2C4B-4994-A961-626A03BC12A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71BB964-2C4B-4994-A961-626A03BC12A1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F9311C3C-CE78-4D2F-8D56-F11730DCDA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9311C3C-CE78-4D2F-8D56-F11730DCDA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9311C3C-CE78-4D2F-8D56-F11730DCDA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9311C3C-CE78-4D2F-8D56-F11730DCDA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EB7D0A-BF7F-4A5A-9E76-DB4B17C852DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EB7D0A-BF7F-4A5A-9E76-DB4B17C852DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EB7D0A-BF7F-4A5A-9E76-DB4B17C852DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EB7D0A-BF7F-4A5A-9E76-DB4B17C852DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D67696F-7C08-4A07-BF09-6C72B8CDA4B0}
+	EndGlobalSection
+EndGlobal

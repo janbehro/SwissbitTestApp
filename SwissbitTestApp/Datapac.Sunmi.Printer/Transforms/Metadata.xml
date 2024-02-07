@@ -1,0 +1,13 @@
+﻿<metadata>
+	<attr path="/api/package[@name='com.sunmi.peripheral.printer']/interface[@name='ICallback']" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.sunmi.peripheral.printer']/interface[@name='ILcdCallback']" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.sunmi.peripheral.printer']/interface[@name='ITax']" name="visibility">public</attr>
+
+	<attr path="/api/package[@name='com.sunmi.peripheral.printer']/interface[@name='SunmiPrinterService']" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.sunmi.peripheral.printer']/interface[@name='SunmiPrinterService']" name="obfuscated">false</attr>
+
+	<remove-node path="/api/package[@name='com.sunmi.peripheral.printer']/class[@name='ICallback.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" />
+	<remove-node path="/api/package[@name='com.sunmi.peripheral.printer']/class[@name='ILcdCallback.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" />
+	<remove-node path="/api/package[@name='com.sunmi.peripheral.printer']/class[@name='ITax.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" />
+	<remove-node path="/api/package[@name='com.sunmi.peripheral.printer']/class[@name='SunmiPrinterService.Stub']/method[@name='onTransact' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='android.os.Parcel'] and parameter[3][@type='android.os.Parcel'] and parameter[4][@type='int']]" />
+</metadata>

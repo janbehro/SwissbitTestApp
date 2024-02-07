@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/buttonInitPrinter"
+        android:layout_width="match_parent"
+        android:text="Init Printer"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/buttonPrintButton"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:text="Test print"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/buttonSwissbitInit"
+        android:layout_width="match_parent"
+        android:text="Init swissbit"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:text="CBC key:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:id="@+id/textCbc"
+        android:text="10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 110, 111, 112, 113, 114, 115 "
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <Button
+        android:id="@+id/buttonSwissbitRead"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:text="Test swissbit read"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/buttonSwissbitWrite"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:text="Test swissbit write"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/buttonSwissbitDispose"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:text="Dispose swissbit"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"/>
+</LinearLayout>
